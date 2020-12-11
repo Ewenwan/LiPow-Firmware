@@ -3,6 +3,17 @@ Firmware for LiPow the open Source Lipo Battery Charger with USB C Power Deliver
 
 LiPow uses USB Type C with Power Delivery to charge Lithium Polymer batteries. It supports charging and balancing for 2s-4s packs. The device supports charging up to 100W.
 
+主要有以下功能：
+```
+单节锂电池和 2s-4s 锂电池组平衡充电
+支持 USB PD 电源，充电高达 60W
+支持非 USB PD 电源（仅限于 2.5W - 5V，0.5A）
+随着设备温度升高，自动降低充电功率
+通过 RGB LED 提供用户反馈
+开源原理图、BOM 和固件
+用于调试和运行时信息的 UART 命令行接口
+```
+
 # **LiPow Features**
 
 - Charges and balances 2s-4s packs (single cell charging possible in future)
